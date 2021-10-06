@@ -1,0 +1,82 @@
+body {
+  color: rgb(47, 0, 255);
+  background-color: mediumaquamarine;
+  font-family: cursive;
+  font-size:small;
+  line-height:2em;
+  font-weight: 700;
+}
+h2 {
+  color: red;
+}
+
+header {
+  color:mediumslateblue;
+  font-family: fantasy;
+  font-size: larger;
+  line-height: 5em;
+
+}
+
+link{
+  color:navy;
+  text-decoration:orchid;
+
+}
+
+ a:hover {
+  text-decoration: overline  ;
+}
+
+div {
+  border-top: 1px solid red;
+  border-right: 2px dotted black;
+  border-bottom: 1px dashed green;
+  border-left: 2px dotted black;
+  align-self: center;
+  width: 800px;
+  margin: 0 auto;
+}
+
+#foto {
+  width: 100px;
+}
+
+.img-circle{
+  border-radius: 50%;
+}
+
+.imagem {
+  align-self: center;
+  margin: auto;
+  width: 50%;
+  border-top: 0px solid red;
+  border-right: 0px dotted black;
+  border-bottom: 0px dashed green;
+  border-left: 0px dotted black;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
